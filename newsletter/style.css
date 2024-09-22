@@ -8,10 +8,26 @@ svg{
     fill: white;
 }
 
-a{
-    display: none !important;
-}
 
 .eapps-widget-toolbar{
     display: none !important;
+}
+
+.link{
+    position: absolute;
+    top: 0;
+    width: 99%;
+}
+
+.link a{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    max-width: 465px;
+    margin: auto;
+    display: block;
+    z-index: 9999;
+    position: relative;
+    text-align: end;
+    padding: 40px;
+    margin-top: 20px;
 }
